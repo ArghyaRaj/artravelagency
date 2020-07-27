@@ -1,0 +1,39 @@
+/* REUSABLE COMPONENTS */
+
+h1 {
+    font-size: 5.5rem;
+    color: $text-color;
+    font-weight: 900;
+}
+
+section {
+    padding: 15rem 0;
+}
+
+.row {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.little-description {
+    font-size: 1.8rem;
+    line-height: 3rem; 
+    width: 60%;
+    color: $text-color;
+    margin: 4rem 0;
+    margin-left: 20%;
+}
+
+.btn {
+    background-color: $hover-text-color;
+    border-bottom: .3rem solid $secondText-color;
+    color: $text-color;
+    font-size: 1.6rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 5rem;
+    border-radius: .5rem;
+    display: inline-block;
+    margin-top: 4rem;
+}
+
